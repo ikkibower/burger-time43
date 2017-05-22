@@ -23,5 +23,9 @@
     "express-handlebars": "^3.0.0",
     "method-override": "^2.3.8",
     "mysql": "^2.13.0"
-  }
+  },
+      "scripts": {
+        "start": "node server.js"
+    }
+
 }

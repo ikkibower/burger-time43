@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.text());
 app.use(bodyParser.json({ type: 'application/vnd.api+json' }));
 
-app.use(express.static(path.join(__dirname, '/public')));
+app.use(express.static(__dirname + '/public'));
 
 app.use(methodOverride("_method"));
 
